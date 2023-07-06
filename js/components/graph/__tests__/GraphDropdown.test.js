@@ -4,6 +4,7 @@ import GraphDropdown from "../GraphDropdown"
 import { shallow } from "enzyme"
 import { fireEvent } from "@testing-library/react"
 
+// Sleep function
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms))
 }
